@@ -1,0 +1,50 @@
+{
+  "GASES DEL ORINOCO": {
+    "activo": true,
+    "utiliza_servicio_externo_prioridad": false,
+    "prioridades": {
+      "Alta": ["Incidente técnico"],
+      "Media": ["Solicitud administrativa"],
+      "Baja": ["Consulta informativa"]
+    },
+    "categorias_permitidas": [
+      "Incidente técnico",
+      "Consulta informativa",
+      "Solicitud administrativa"
+    ],
+    "delegacion_externa": [
+      "Incidente técnico"
+    ]
+  },
+  "MENSAJERIA DEL VALLE": {
+    "activo": true,
+    "utiliza_servicio_externo_prioridad": true,
+    "categorias_permitidas": [
+      "Entrega fallida",
+      "Demora en ruta",
+      "Reclamo general",
+      "Actualización de datos"
+    ],
+    "delegacion_externa": [
+      "Entrega fallida",
+      "Demora en ruta"
+    ]
+  },
+  "FINANCIERA": {
+    "activo": true,
+    "utiliza_servicio_externo_prioridad": false,
+    "prioridades": {
+      "Alta": ["Aclaración de mora"],
+      "Media": ["Solicitud de crédito"],
+      "Baja": ["Actualización de datos"]
+    },
+    "categorias_permitidas": [
+      "Solicitud de crédito",
+      "Aclaración de mora",
+      "Actualización de datos"
+    ],
+    "delegacion_externa": [
+      "Aclaración de mora"
+    ]
+  }
+}
